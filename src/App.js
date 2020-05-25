@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import HomeTab from './HomeTab';
 import Navigation from './Navigation';
+import Dragula from 'dragula';
 import Board from './Board';
 import './App.css';
 

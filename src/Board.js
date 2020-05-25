@@ -20,7 +20,11 @@ export default class Board extends React.Component {
       inProgress: React.createRef(),
       complete: React.createRef(),
     }
+
+    var drag = Dragula({containers : clients});
+    //Dragula([document.getElementById('left'), document.getElementById('right')]);
   }
+
   getClients() {
     return [
       ['1','Stark, White and Abbott','Cloned Optimal Architecture', 'in-progress'],
